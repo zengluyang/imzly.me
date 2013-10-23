@@ -2,8 +2,8 @@
 # Usage: http://ruhoh.com/usage/configure/ 
 
 RuhohSpec: '1.0'
-theme : twitter
-production_url : http://sample.com
+theme : the-program
+production_url : http://zengluyang.github.io
 
 posts:
   permalink: /:permalink/

@@ -1,24 +1,18 @@
 ---
-title: 首页
-description:
+title: AmicusLuyang | int64_t ago;
+description: zly's Personal Blog
 ---
-
-<h2>Welcome!</h2>
-
-
 
 <h2>最近更新</h2>
 
 {{# posts_latest }}
 <div class="post">
-  <h1 class="title"><a href="{{url}}">{{title}}</a> <span class="date">{{ date }}</span></h1>
-
+  <h1 class="title"><a href="{{url}}">{{title}}</a> </h1> <span class="date">本条目发布于<script>document.write(new Date("{{ date }}").toLocaleDateString());</script></span>
   {{{ content }}}
 	
-<!---
+<!--
   <div class="more">
     <a href="{{url}}" class="btn">Read more..</a>
   </div>
- --->
-</div>
+!-->
 {{/ posts_latest }}

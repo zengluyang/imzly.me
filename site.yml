@@ -1,11 +1,9 @@
-title : Blog Title
-tagline: Blog Tagline
+title : AmicusLuyang
+tagline: int64_t ago;
 author :
-  name : Firstname Lastname
-  email : blah@email.test
-  github : username
-  twitter : username
-  feedburner : feedname
+  name : zly
+  email : zengluyang#gmail.com
+  github : zengluyang
 
 navigation :
   - archive.html
